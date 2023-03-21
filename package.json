@@ -5,12 +5,12 @@
   "publisher": "xiaohuoni",
   "displayName": "iChatGPT",
   "description": "为我自己写的 ChatGPT 插件",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "engines": {
     "vscode": "^1.74.0"
   },
   "repository": {
-    "url": "https://xiaohuoni.visualstudio.com/iChatGPT"
+    "url": "https://github.com/xiaohuoni/chatgpt-vscode-plugin"
   },
   "categories": [
     "Other"

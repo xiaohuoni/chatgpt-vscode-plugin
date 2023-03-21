@@ -1,6 +1,6 @@
 # iChatGPT VSCode Extension
 
-大部分代码均来自 [ChatGPT VSCode Extension](https://github.com/barnesoir/chatgpt-vscode-plugin) - A VS code plugin for ChatGPT built by ChatGPT。我是基于这个插件做的修改。主要修改的是视图部分的内容。视图来自 [chatfish](https://charfish.io)。我就是个缝合大师。这是一个为我自己编写的 ChatGPT 插件，很高兴你能选择使用它，如果它对你有所帮助，或者你需要一些其他的功能，你可以联系我。
+大部分代码均来自 [ChatGPT VSCode Extension](https://github.com/barnesoir/chatgpt-vscode-plugin) - A VS code plugin for ChatGPT built by ChatGPT。我是基于这个插件做的修改。主要修改的是视图部分的内容。视图来自 [chatfish](https://chatfish.io)。我就是个缝合大师。这是一个为我自己编写的 ChatGPT 插件，很高兴你能选择使用它，如果它对你有所帮助，或者你需要一些其他的功能，你可以联系我。
 
 
 ## Install the plugin from the [VSCode MarketPlace](https://marketplace.visualstudio.com/items?itemName=xiaohuoni.i-chatgpt)
