@@ -9,7 +9,9 @@
   "engines": {
     "vscode": "^1.74.0"
   },
-  "packageManager": "npm@7.28.0",
+  "repository": {
+    "url": "https://xiaohuoni.visualstudio.com/iChatGPT"
+  },
   "categories": [
     "Other"
   ],
@@ -140,7 +142,7 @@
     }
   },
   "scripts": {
-    "vscode:package": "vsce package",
+    "vscode:package": "vsce package --yarn",
     "vscode:publish": "vsce publish",
     "vscode:install": "code --install-extension i-chatgpt-1.1.10.vsix",
     "vscode:clean": "del i-chatgpt-1.1.10.vsix",
