@@ -91,7 +91,7 @@ export async function activate(context: vscode.ExtensionContext) {
         : `This is the ${editor.document.languageId} file I'm working on: \n\n${entireFileContents}`;
 
       chatViewProvider.sendOpenAiApiRequest(
-        `${useCnResponse ? "请用中文回答：" : ""}${userInput}`,
+        `${userInput}${useCnResponse ? "By Simplified Chinese." : ""}`,
         code
       );
     }
