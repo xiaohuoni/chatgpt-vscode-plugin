@@ -1,5 +1,12 @@
 # Welcome to your VS Code Extension
 
+## Commands:
+
+- `yarn setup` (installs project dependencies)
+- `yarn compile` (generates js files)
+- `yarn vscode:package` (creates vscode installer package)
+- `yarn vscode:install` (installs vscode package)
+
 ## What's in the folder
 
 * This folder contains all of the files necessary for your extension.

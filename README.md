@@ -5,12 +5,6 @@
 
 ## Install the plugin from the [VSCode MarketPlace](https://marketplace.visualstudio.com/items?itemName=xiaohuoni.i-chatgpt)
 
-#### Commands:
-
-- `yarn setup` (installs project dependencies)
-- `yarn compile` (generates js files)
-- `yarn vscode:package` (creates vscode installer package)
-- `yarn vscode:install` (installs vscode package)
 
 ## Features
 

@@ -5,7 +5,7 @@
   "publisher": "xiaohuoni",
   "displayName": "iChatGPT",
   "description": "为我自己写的 ChatGPT 插件",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "engines": {
     "vscode": "^1.74.0"
   },
