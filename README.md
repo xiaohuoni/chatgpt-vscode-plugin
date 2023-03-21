@@ -60,10 +60,11 @@ _通过身份验证后，您可以向ChatGPT询问任何问题，并提供当前
 
 如果觉得这个插件对你有帮助，你可以请我和一杯咖啡，万分感谢。
 
-<image src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fc6b8ae7f61546ea8074dcd75a2844bf~tplv-k3u1fbpfcp-watermark.image?" style="width:350px"/>
+
+![image](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fc6b8ae7f61546ea8074dcd75a2844bf~tplv-k3u1fbpfcp-watermark.image?)
 
 ## 交流群
 
-<image src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fe9c6b33d2b742e6babf172d54c8ce5d~tplv-k3u1fbpfcp-watermark.image?" style="width:250px"/>
+![image](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fe9c6b33d2b742e6babf172d54c8ce5d~tplv-k3u1fbpfcp-watermark.image?)
 
 [264626657](https://jq.qq.com/?_wv=1027&k=pA1gHVhB)
