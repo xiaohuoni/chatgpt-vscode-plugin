@@ -54,17 +54,20 @@ export default class ChatGptViewProvider implements vscode.WebviewViewProvider {
         .replace(/^https?:\/\//, "")
         .replace(/\/$/, "");
       this.context.globalState.update("chatgpt-api-proxy", this.proxyUrl);
+     
     }
     if (!this.apiKey) {
       const apiKeyInput = await vscode.window.showInputBox({
         prompt:
-          "请输入你的 OpenAI API密钥，可以在 https://openai.com/account/api-keys 申请",
+          "请输入你的 OpenAI API密钥，可以在 https://platform.openai.com/account/api-keys 申请",
         ignoreFocusOut: true,
       });
 
       this.apiKey = apiKeyInput!;
       this.context.globalState.update("chatgpt-api-key", this.apiKey);
     }
+    this.sendMessageToWebView({ type: "setProxyUrl", value: this.proxyUrl });
+    this.sendMessageToWebView({ type: "setApi", value: this.apiKey });
   }
 
   public async ensureProxyUrl() {
@@ -77,6 +80,7 @@ export default class ChatGptViewProvider implements vscode.WebviewViewProvider {
       .replace(/^https?:\/\//, "")
       .replace(/\/$/, "");
     this.context.globalState.update("chatgpt-api-proxy", this.proxyUrl);
+    this.sendMessageToWebView({ type: "setProxyUrl", value: this.proxyUrl });
   }
 
   public async sendOpenAiApiRequest(prompt: string, code?: string) {
